@@ -3,7 +3,7 @@
      Related articles: article pages only
 */}}
 
-{{ if eq .Kind "page" }}
+{{ if and (eq .Kind "page") (ne .Layout "search") }}
 
 {{/* Related articles */}}
 {{ partial "related_articles.html" . }}
