@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Sanctions on Doc B — This Timeline</title>
-    <link>http://localhost:1313/tags/sanctions/</link>
+    <link>https://docbtimeline.com/tags/sanctions/</link>
     <description>Recent content in Sanctions on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 22 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/sanctions/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docbtimeline.com/tags/sanctions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hungary&#39;s €430-Per-Tonne Election Strategy</title>
-      <link>http://localhost:1313/posts/hungary-fertilizer-election/</link>
+      <link>https://docbtimeline.com/posts/hungary-fertilizer-election/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/hungary-fertilizer-election/</guid>
+      <guid>https://docbtimeline.com/posts/hungary-fertilizer-election/</guid>
       <description>Hormuz → EU gas storage at 28.9% → fertilizer costs surge → Hungary&amp;#39;s electoral cycle turns supply shock into sanctions defection vector</description>
     </item>
   </channel>

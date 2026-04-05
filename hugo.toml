@@ -14,7 +14,7 @@ summaryLength = 30
   ShowReadingTime = true
   ShowShareButtons = false
   ShowPostNavLinks = true
-  ShowBreadCrumbs = false
+  ShowBreadCrumbs = true
   ShowCodeCopyButtons = false
   ShowRssButtonInSectionTermList = true
   ShowToc = true
@@ -49,7 +49,7 @@ summaryLength = 30
 
   [[params.socialIcons]]
     name = "rss"
-    url = "/index.xml"
+    url = "/rss/"
 
 [menu]
   [[menu.main]]

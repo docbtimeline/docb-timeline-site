@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Iran on Doc B — This Timeline</title>
-    <link>http://localhost:1313/tags/iran/</link>
+    <link>https://docbtimeline.com/tags/iran/</link>
     <description>Recent content in Iran on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 28 Mar 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/iran/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docbtimeline.com/tags/iran/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Iran Built a Velvet Rope Around 21% of Global Oil</title>
-      <link>http://localhost:1313/posts/iran-velvet-rope-hormuz/</link>
+      <link>https://docbtimeline.com/posts/iran-velvet-rope-hormuz/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/iran-velvet-rope-hormuz/</guid>
+      <guid>https://docbtimeline.com/posts/iran-velvet-rope-hormuz/</guid>
       <description>Flag-state discrimination converts Hormuz from a commons to a permission gate — and the IRGC is collecting the toll</description>
     </item>
   </channel>
