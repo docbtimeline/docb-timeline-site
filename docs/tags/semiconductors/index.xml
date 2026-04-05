@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Semiconductors on Doc B — This Timeline</title>
-    <link>https://docbtimeline.com/tags/semiconductors/</link>
+    <link>http://localhost:1313/tags/semiconductors/</link>
     <description>Recent content in Semiconductors on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 02 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/semiconductors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/semiconductors/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Export Controls Created the Efficiency They Feared Most</title>
-      <link>https://docbtimeline.com/posts/export-controls-efficiency/</link>
+      <link>http://localhost:1313/posts/export-controls-efficiency/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/export-controls-efficiency/</guid>
+      <guid>http://localhost:1313/posts/export-controls-efficiency/</guid>
       <description>Alibaba&amp;#39;s Qwen hit 700 million downloads running on MacBooks. Chinese AI went from 1% to 30% of global workloads in a year. The chip restriction didn&amp;#39;t gate competition — it optimized it.</description>
     </item>
     <item>
       <title>Huawei Built the Processor. Henan Can&#39;t Plug It In.</title>
-      <link>https://docbtimeline.com/posts/huawei-processor-henan-grid/</link>
+      <link>http://localhost:1313/posts/huawei-processor-henan-grid/</link>
       <pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/huawei-processor-henan-grid/</guid>
+      <guid>http://localhost:1313/posts/huawei-processor-henan-grid/</guid>
       <description>Export controls froze China at 7nm — and may have accidentally synchronised China&amp;#39;s chip and grid timelines</description>
     </item>
     <item>
       <title>2,600 Gigawatts Are Waiting. The Transformers Aren&#39;t Coming.</title>
-      <link>https://docbtimeline.com/posts/2600-gigawatts-transformers/</link>
+      <link>http://localhost:1313/posts/2600-gigawatts-transformers/</link>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/2600-gigawatts-transformers/</guid>
+      <guid>http://localhost:1313/posts/2600-gigawatts-transformers/</guid>
       <description>AI chip investment created 2,600 GW of queued power demand. The grid takes five years to say yes. The transformer takes two years to arrive.</description>
     </item>
     <item>
       <title>The Slurry Problem</title>
-      <link>https://docbtimeline.com/posts/slurry-problem/</link>
+      <link>http://localhost:1313/posts/slurry-problem/</link>
       <pubDate>Fri, 27 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/slurry-problem/</guid>
+      <guid>http://localhost:1313/posts/slurry-problem/</guid>
       <description>China&amp;#39;s antimony and tungsten export controls are reaching Intel&amp;#39;s fab floor through a liquid nobody talks about</description>
     </item>
     <item>
       <title>The Gas That Thinks</title>
-      <link>https://docbtimeline.com/posts/gas-that-thinks-helium/</link>
+      <link>http://localhost:1313/posts/gas-that-thinks-helium/</link>
       <pubDate>Thu, 19 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/gas-that-thinks-helium/</guid>
+      <guid>http://localhost:1313/posts/gas-that-thinks-helium/</guid>
       <description>Hormuz closes, Qatar&amp;#39;s helium halts, the Federal Reserve depletes — and AI scaling hits a ceiling made of noble gas</description>
     </item>
   </channel>

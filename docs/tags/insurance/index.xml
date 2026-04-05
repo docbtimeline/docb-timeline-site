@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Insurance on Doc B — This Timeline</title>
-    <link>https://docbtimeline.com/tags/insurance/</link>
+    <link>http://localhost:1313/tags/insurance/</link>
     <description>Recent content in Insurance on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/insurance/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/insurance/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cancellation Clause That Closed a Strait</title>
-      <link>https://docbtimeline.com/posts/cancellation-clause-closed-strait/</link>
+      <link>http://localhost:1313/posts/cancellation-clause-closed-strait/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/cancellation-clause-closed-strait/</guid>
+      <guid>http://localhost:1313/posts/cancellation-clause-closed-strait/</guid>
       <description>How Lloyd&amp;#39;s 72-hour war-risk withdrawal handed Iran a $2 million per-tanker toll at Hormuz — and European ports started requiring proof of payment</description>
     </item>
   </channel>

@@ -4,6 +4,7 @@ title = "Doc B — This Timeline"
 theme = "PaperMod"
 publishDir = "docs"
 paginate = 10
+summaryLength = 30
 
 [params]
   description = "Constraint intelligence for a world where the bottleneck keeps moving."
@@ -16,14 +17,31 @@ paginate = 10
   ShowBreadCrumbs = false
   ShowCodeCopyButtons = false
   ShowRssButtonInSectionTermList = true
-  ShowToc = false
+  ShowToc = true
+  TocOpen = false
   ShowWordCount = false
   disableScrollToTop = false
   comments = false
 
+  # Cover image display on article list
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+    responsiveImages = true
+
+  # Search
+  fuseOpts.isCaseSensitive = false
+  fuseOpts.shouldSort = true
+  fuseOpts.location = 0
+  fuseOpts.distance = 1000
+  fuseOpts.threshold = 0.4
+  fuseOpts.minMatchCharLength = 2
+  fuseOpts.keys = ["title", "description", "content", "tags"]
+
   [params.homeInfoParams]
     Title = "Doc B — This Timeline"
-    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Published ~3× per week. *Where the pressure starts is never where it lands.*"
+    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Each edition traces a specific pressure shift — which actors adapted, where the consequence landed, and who's absorbing it now. Published ~3× per week."
 
   [[params.socialIcons]]
     name = "x"
@@ -40,10 +58,32 @@ paginate = 10
     url = "/posts/"
     weight = 10
   [[menu.main]]
+    identifier = "topics"
+    name = "Topics"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 20
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+# Related content — finds articles sharing tags
+[related]
+  threshold = 50
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100
+  [[related.indices]]
+    name = "date"
+    weight = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]

@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Shipping on Doc B — This Timeline</title>
-    <link>https://docbtimeline.com/tags/shipping/</link>
+    <link>http://localhost:1313/tags/shipping/</link>
     <description>Recent content in Shipping on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/shipping/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/shipping/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Cancellation Clause That Closed a Strait</title>
-      <link>https://docbtimeline.com/posts/cancellation-clause-closed-strait/</link>
+      <link>http://localhost:1313/posts/cancellation-clause-closed-strait/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/cancellation-clause-closed-strait/</guid>
+      <guid>http://localhost:1313/posts/cancellation-clause-closed-strait/</guid>
       <description>How Lloyd&amp;#39;s 72-hour war-risk withdrawal handed Iran a $2 million per-tanker toll at Hormuz — and European ports started requiring proof of payment</description>
     </item>
     <item>
       <title>Iran Built a Velvet Rope Around 21% of Global Oil</title>
-      <link>https://docbtimeline.com/posts/iran-velvet-rope-hormuz/</link>
+      <link>http://localhost:1313/posts/iran-velvet-rope-hormuz/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/iran-velvet-rope-hormuz/</guid>
+      <guid>http://localhost:1313/posts/iran-velvet-rope-hormuz/</guid>
       <description>Flag-state discrimination converts Hormuz from a commons to a permission gate — and the IRGC is collecting the toll</description>
     </item>
   </channel>

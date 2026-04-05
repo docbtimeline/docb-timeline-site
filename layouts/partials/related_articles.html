@@ -1,0 +1,18 @@
+{{/* related_articles.html — shown at end of each article */}}
+{{ $related := .Site.RegularPages.Related . | first 3 }}
+{{ with $related }}
+<div class="related-articles">
+  <h3 class="related-heading">Related analysis</h3>
+  <ul class="related-list">
+    {{ range . }}
+    <li class="related-item">
+      <a href="{{ .Permalink }}" class="related-title">{{ .Title }}</a>
+      {{ with .Description }}
+      <p class="related-desc">{{ . }}</p>
+      {{ end }}
+      <span class="related-meta">{{ .Date.Format "Jan 2, 2006" }} · {{ .ReadingTime }} min read</span>
+    </li>
+    {{ end }}
+  </ul>
+</div>
+{{ end }}

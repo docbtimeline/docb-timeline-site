@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Batteries on Doc B — This Timeline</title>
-    <link>https://docbtimeline.com/tags/batteries/</link>
+    <link>http://localhost:1313/tags/batteries/</link>
     <description>Recent content in Batteries on Doc B — This Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/batteries/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/batteries/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Every Machine in China&#39;s Battery Line Is Chinese</title>
-      <link>https://docbtimeline.com/posts/every-machine-chinas-battery-line/</link>
+      <link>http://localhost:1313/posts/every-machine-chinas-battery-line/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/every-machine-chinas-battery-line/</guid>
+      <guid>http://localhost:1313/posts/every-machine-chinas-battery-line/</guid>
       <description>Gotion&amp;#39;s 620-mile solid-state battery hits 90% yield while Northvolt and three European factories go bankrupt in a single quarter</description>
     </item>
     <item>
       <title>The 10,700-Ton Hole in Glencore&#39;s Cobalt Supply</title>
-      <link>https://docbtimeline.com/posts/glencore-cobalt-supply-hole/</link>
+      <link>http://localhost:1313/posts/glencore-cobalt-supply-hole/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/glencore-cobalt-supply-hole/</guid>
+      <guid>http://localhost:1313/posts/glencore-cobalt-supply-hole/</guid>
       <description>DRC export quotas forced the world&amp;#39;s largest cobalt trader to source from Chinese exchange warehouses — and the Wuxi stockpile is draining</description>
     </item>
   </channel>

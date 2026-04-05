@@ -1,0 +1,35 @@
+{{/* extend_footer.html
+     Subscribe block: article pages only (Kind = "page")
+     Related articles: article pages only
+*/}}
+
+{{ if eq .Kind "page" }}
+
+{{/* Related articles */}}
+{{ partial "related_articles.html" . }}
+
+{{/* Subscribe block */}}
+<div class="subscribe-block">
+  <span class="subscribe-label">Newsletter</span>
+  <p class="subscribe-heading">Where the pressure starts is never where it lands.</p>
+  <p class="subscribe-prompt">New analysis ~3× per week. Free. No spam.</p>
+  <form
+    action="https://buttondown.com/api/emails/embed-subscribe/docb"
+    method="post"
+    target="popupwindow"
+    onsubmit="window.open('https://buttondown.com/docb', 'popupwindow')"
+  >
+    <div class="subscribe-row">
+      <input
+        type="email"
+        name="email"
+        placeholder="your@email.com"
+        required
+      />
+      <button type="submit">Subscribe</button>
+    </div>
+  </form>
+  <p class="subscribe-footnote">Delivered by Buttondown. Unsubscribe any time.</p>
+</div>
+
+{{ end }}
