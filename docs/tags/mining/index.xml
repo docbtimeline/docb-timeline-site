@@ -2,17 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Mining on DocB — Timeline</title>
-    <link>http://localhost:1313/tags/mining/</link>
+    <link>https://docbtimeline.com/tags/mining/</link>
     <description>Recent content in Mining on DocB — Timeline</description>
+    <image>
+      <title>DocB — Timeline</title>
+      <url>https://docbtimeline.com/images/docb-og.jpg</url>
+      <link>https://docbtimeline.com/images/docb-og.jpg</link>
+    </image>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mining/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docbtimeline.com/tags/mining/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The 10,700-Ton Hole in Glencore&#39;s Cobalt Supply</title>
-      <link>http://localhost:1313/posts/glencore-cobalt-supply-hole/</link>
+      <link>https://docbtimeline.com/posts/glencore-cobalt-supply-hole/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/glencore-cobalt-supply-hole/</guid>
+      <guid>https://docbtimeline.com/posts/glencore-cobalt-supply-hole/</guid>
       <description>DRC export quotas forced the world&amp;#39;s largest cobalt trader to source from Chinese exchange warehouses — and the Wuxi stockpile is draining</description>
     </item>
   </channel>

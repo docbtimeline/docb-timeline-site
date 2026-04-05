@@ -4,6 +4,11 @@ description: "What DocB — Timeline does and why it works"
 date: 2026-04-05
 draft: false
 showToc: false
+cover:
+  image: "/images/docb-identity.jpg"
+  alt: "DocB-Timeline"
+  hidden: false
+  hiddenInList: true
 ---
 
 # About DocB — Timeline

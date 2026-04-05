@@ -1,0 +1,50 @@
+/* DocB-Timeline: Identity Image System
+   Rules: image used as brand anchor, not decoration.
+   Homepage banner: restrained panel, one use, above article list.
+   About page: contained cover, not full-bleed.
+   Never: repeated thumbnails, wallpaper, hero background with text overlay.
+*/
+
+/* ─── Homepage banner — contained identity panel ─────────── */
+.home-identity-banner {
+  display: block;
+  max-width: 85%;
+  width: 100%;
+  height: auto;
+  margin: 1.5rem auto 1.8rem;
+  border-radius: 4px;
+  opacity: 0.92;
+}
+
+/* Slightly narrower on larger screens for refinement */
+@media (min-width: 768px) {
+  .home-identity-banner {
+    max-width: 75%;
+  }
+}
+
+/* Full width on mobile where space is tight */
+@media (max-width: 480px) {
+  .home-identity-banner {
+    max-width: 100%;
+    border-radius: 0;
+    margin: 1rem auto 1.4rem;
+  }
+}
+
+/* ─── About page cover — controlled, not oversized ───────── */
+.post-single .post-content img[alt="DocB-Timeline"],
+.post-single .cover img {
+  max-width: 70%;
+  margin: 0 auto 2rem;
+  display: block;
+  border-radius: 4px;
+}
+
+/* On mobile, let the About cover breathe more */
+@media (max-width: 480px) {
+  .post-single .post-content img[alt="DocB-Timeline"],
+  .post-single .cover img {
+    max-width: 90%;
+  }
+}
