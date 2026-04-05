@@ -1,0 +1,56 @@
+baseURL = "https://docbtimeline.com"
+languageCode = "en-us"
+title = "Doc B — This Timeline"
+theme = "PaperMod"
+publishDir = "docs"
+paginate = 10
+
+[params]
+  description = "Constraint intelligence for a world where the bottleneck keeps moving."
+  author = "Doc B"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowRssButtonInSectionTermList = true
+  ShowToc = false
+  ShowWordCount = false
+  disableScrollToTop = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "Doc B — This Timeline"
+    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Published ~3× per week. **Where the pressure starts is never where it lands.**"
+
+  [[params.socialIcons]]
+    name = "x"
+    url = "https://x.com/DocbFuture"
+
+  [[params.socialIcons]]
+    name = "rss"
+    url = "/index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    noClasses = false

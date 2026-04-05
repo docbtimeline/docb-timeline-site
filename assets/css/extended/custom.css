@@ -1,0 +1,86 @@
+/* Doc B Timeline — custom overrides for PaperMod dark theme */
+
+:root {
+  --gap: 24px;
+  --content-gap: 20px;
+  --main-width: 720px;
+  --header-height: 60px;
+  --footer-height: 60px;
+}
+
+/* Tighter, more editorial header */
+.header {
+  border-bottom: 1px solid var(--border);
+}
+
+/* Article typography — slightly larger, more readable */
+.post-content {
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+/* Section headers have more weight */
+.post-content h2 {
+  margin-top: 2.2em;
+  margin-bottom: 0.6em;
+  font-size: 1.3rem;
+  letter-spacing: -0.01em;
+}
+
+/* Tags styling */
+.post-tags a {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Home info block — the intro blurb */
+.home-info-container {
+  padding: 2rem 0 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.5rem;
+}
+
+/* Article list — tighter, more newspaper-like */
+.post-entry {
+  padding: 1.2rem 0;
+}
+
+.post-entry .entry-header h2 {
+  font-size: 1.15rem;
+  line-height: 1.4;
+}
+
+/* Description/subtitle in article card */
+.entry-content p {
+  font-size: 0.92rem;
+  opacity: 0.85;
+  line-height: 1.5;
+}
+
+/* Reading time and date meta */
+.post-meta {
+  font-size: 0.8rem;
+  opacity: 0.65;
+}
+
+/* Sources section at bottom — smaller, muted */
+.post-content h2:last-of-type + ul,
+.post-content h2:last-of-type + p {
+  font-size: 0.85rem;
+  opacity: 0.7;
+}
+
+/* Market implication box — subtle callout */
+.post-content blockquote {
+  border-left: 3px solid var(--primary);
+  padding-left: 1.2em;
+  font-style: normal;
+  opacity: 0.9;
+}
+
+/* Footer */
+.footer {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
