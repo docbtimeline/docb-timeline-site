@@ -23,14 +23,12 @@ summaryLength = 30
   disableScrollToTop = false
   comments = false
 
-  # Cover image display on article list
   [params.cover]
     hidden = false
     hiddenInList = false
     hiddenInSingle = false
     responsiveImages = true
 
-  # Search
   fuseOpts.isCaseSensitive = false
   fuseOpts.shouldSort = true
   fuseOpts.location = 0
@@ -41,7 +39,14 @@ summaryLength = 30
 
   [params.homeInfoParams]
     Title = "Doc B — This Timeline"
-    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Each edition traces a specific pressure shift — which actors adapted, where the consequence landed, and who's absorbing it now. Published ~3× per week."
+    Content = '''
+Constraint intelligence for a world where the bottleneck keeps moving. Each edition traces a specific pressure shift — which actors adapted, where the consequence landed, and who's absorbing it now. Published ~3× per week.
+
+<form class="home-subscribe-form" action="https://buttondown.com/api/emails/embed-subscribe/docb" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/docb','popupwindow')">
+<input type="email" name="email" placeholder="your@email.com" required /><button type="submit">Subscribe free</button>
+</form>
+<p class="home-subscribe-note">No spam. Unsubscribe any time.</p>
+'''
 
   [[params.socialIcons]]
     name = "x"
@@ -52,6 +57,11 @@ summaryLength = 30
     url = "/rss/"
 
 [menu]
+  [[menu.main]]
+    identifier = "start"
+    name = "Start Here"
+    url = "/start-here/"
+    weight = 5
   [[menu.main]]
     identifier = "archive"
     name = "Archive"
@@ -73,7 +83,6 @@ summaryLength = 30
     url = "/search/"
     weight = 40
 
-# Related content — finds articles sharing tags
 [related]
   threshold = 50
   includeNewer = true
