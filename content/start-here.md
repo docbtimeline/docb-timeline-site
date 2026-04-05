@@ -1,12 +1,12 @@
 ---
 title: "Start Here"
-description: "New to Doc B's Timeline? Start with these four articles to understand the analytical framework and what constraint intelligence means in practice."
+description: "New to DocB — Timeline? Start with these four articles to understand the analytical framework and what constraint intelligence means in practice."
 date: 2026-04-05
 draft: false
 showToc: false
 ---
 
-New here? These four articles show what Doc B's Timeline does and why it matters. Each one traces a specific constraint shift from cause to consequence — picking up where mainstream coverage stops.
+New here? These four articles show what DocB — Timeline does and why it matters. Each one traces a specific constraint shift from cause to consequence — picking up where mainstream coverage stops.
 
 ---
 
@@ -29,7 +29,7 @@ The Strait of Hormuz didn't close because of missiles. It closed because Lloyd's
 **[Export Controls Created the Efficiency They Feared Most](/posts/export-controls-efficiency/)**
 *April 2, 2026 · 8 min*
 
-US chip restrictions were designed to gate Chinese AI capability. Instead they forced Chinese labs to optimise for inference efficiency — and Alibaba's Qwen hit 700 million downloads running on a MacBook. The policy succeeded at its stated goal and produced the opposite of its intended outcome.
+US chip restrictions were designed to slow Chinese AI capability. Instead they forced Chinese labs to optimise for inference efficiency — and Alibaba's Qwen hit 700 million downloads running on a MacBook. The policy succeeded at its stated goal and produced the opposite of its intended outcome.
 
 ---
 
@@ -48,8 +48,8 @@ Each edition answers the same question: *something changed — which actors adap
 
 Predictions are embedded in every article with specific dates and kill signals — the conditions under which the thesis would be wrong. A public prediction ledger tracking outcomes is coming.
 
-[Browse the full archive →](/posts/) · [Subscribe for new articles →](#)
+[Browse the full archive →](/posts/)
 
-<form class="home-subscribe-form" action="https://buttondown.com/api/emails/embed-subscribe/docb" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/docb','popupwindow')" style="margin-top:0.5rem">
+<form class="home-subscribe-form" action="https://buttondown.com/api/emails/embed-subscribe/docb" method="post" target="popupwindow" onsubmit="window.open('https://buttondown.com/docb','popupwindow')" style="margin-top:1rem">
 <input type="email" name="email" placeholder="your@email.com" required /><button type="submit">Subscribe free</button>
 </form>

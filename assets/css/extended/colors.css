@@ -1,0 +1,150 @@
+/* DocB — Timeline: Color System
+   Primary accent:   #3d6b9e  (slate blue  — links, active states, focus, interactive)
+   Secondary accent: #c4924a  (warm gold   — section markers, dividers, brand moments)
+   Source: Twitter avatar palette — slate blue + gold on warm cream
+   Applied by role, not decoration. Interface readable without color.
+*/
+
+/* ─── CSS custom properties ─────────────────────────────── */
+:root {
+  --accent-blue: #3d6b9e;
+  --accent-blue-light: rgba(61, 107, 158, 0.12);
+  --accent-gold: #c4924a;
+  --accent-gold-light: rgba(196, 146, 74, 0.15);
+}
+
+/* ─── Links — blue + underline (never color alone) ──────── */
+a {
+  color: var(--accent-blue);
+}
+
+.post-content a {
+  color: var(--accent-blue);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: rgba(61, 107, 158, 0.4);
+}
+
+.post-content a:hover {
+  color: #2a4f7a;
+  text-decoration-color: #2a4f7a;
+}
+
+/* ─── Navigation — active state ─────────────────────────── */
+#menu a:hover,
+#menu a.active {
+  color: var(--accent-blue);
+}
+
+/* ─── Logo / site title — gold accent on the dash ───────── */
+.logo a {
+  color: var(--primary);
+}
+
+/* ─── Focus rings — consistent, accessible ──────────────── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--accent-blue);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+/* Remove default outline now we have custom */
+a:focus:not(:focus-visible),
+button:focus:not(:focus-visible),
+input:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* ─── Subscribe form — blue focus ring ──────────────────── */
+.subscribe-row input[type="email"]:focus,
+.home-subscribe-form input[type="email"]:focus,
+#searchbox input:focus {
+  border-color: var(--accent-blue);
+  box-shadow: 0 0 0 2px var(--accent-blue-light);
+}
+
+/* ─── Topic tags — blue accent on hover/active ──────────── */
+.post-tags a:hover {
+  border-color: var(--accent-blue);
+  color: var(--accent-blue);
+  background: var(--accent-blue-light);
+}
+
+/* ─── Breadcrumbs — active crumb in blue ────────────────── */
+.breadcrumbs .breadcrumb:last-child {
+  color: var(--accent-blue);
+}
+
+/* ─── Gold: section dividers — subtle brand marker ──────── */
+.home-info-container {
+  border-bottom: 2px solid var(--accent-gold);
+  padding-bottom: 2.2rem;
+}
+
+/* ─── Gold: article header bottom rule ──────────────────── */
+.post-header {
+  border-bottom-color: var(--accent-gold);
+  border-bottom-width: 1px;
+}
+
+/* ─── Gold: related articles heading marker ─────────────── */
+.related-heading::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 2px;
+  background: var(--accent-gold);
+  margin-right: 8px;
+  vertical-align: middle;
+  position: relative;
+  top: -1px;
+}
+
+/* ─── Gold: post navigation — prev/next rule ────────────── */
+.paginav {
+  border-top: 1px solid var(--border);
+  border-bottom: none;
+}
+
+/* ─── Blue: subscribe button — accent border treatment ──── */
+.subscribe-row button,
+.home-subscribe-form button {
+  background: var(--accent-blue);
+  color: #fff;
+}
+
+.subscribe-row button:hover,
+.home-subscribe-form button:hover {
+  background: #2a4f7a;
+}
+
+/* Dark mode — preserve roles, invert values */
+.dark {
+  --accent-blue: #6a9fd8;
+  --accent-blue-light: rgba(106, 159, 216, 0.15);
+  --accent-gold: #d4a865;
+}
+
+.dark .subscribe-row button,
+.dark .home-subscribe-form button {
+  background: var(--accent-blue);
+  color: #1a1918;
+}
+
+/* ─── TOC links — subtle blue on hover ──────────────────── */
+.toc a:hover {
+  color: var(--accent-blue);
+}
+
+/* ─── Search results — title link color ─────────────────── */
+#searchResults a {
+  color: var(--accent-blue);
+}
+
+/* ─── Social icons — hover accent ───────────────────────── */
+.social-icons a:hover svg {
+  fill: var(--accent-blue);
+}

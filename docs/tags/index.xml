@@ -1,137 +1,137 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on Doc B — This Timeline</title>
-    <link>https://docbtimeline.com/tags/</link>
-    <description>Recent content in Tags on Doc B — This Timeline</description>
+    <title>Tags on DocB — Timeline</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on DocB — Timeline</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 04 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Energy</title>
-      <link>https://docbtimeline.com/tags/energy/</link>
+      <link>http://localhost:1313/tags/energy/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/energy/</guid>
+      <guid>http://localhost:1313/tags/energy/</guid>
       <description></description>
     </item>
     <item>
       <title>Geopolitics</title>
-      <link>https://docbtimeline.com/tags/geopolitics/</link>
+      <link>http://localhost:1313/tags/geopolitics/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/geopolitics/</guid>
+      <guid>http://localhost:1313/tags/geopolitics/</guid>
       <description></description>
     </item>
     <item>
       <title>Insurance</title>
-      <link>https://docbtimeline.com/tags/insurance/</link>
+      <link>http://localhost:1313/tags/insurance/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/insurance/</guid>
+      <guid>http://localhost:1313/tags/insurance/</guid>
       <description></description>
     </item>
     <item>
       <title>Shipping</title>
-      <link>https://docbtimeline.com/tags/shipping/</link>
+      <link>http://localhost:1313/tags/shipping/</link>
       <pubDate>Sat, 04 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/shipping/</guid>
+      <guid>http://localhost:1313/tags/shipping/</guid>
       <description></description>
     </item>
     <item>
       <title>Batteries</title>
-      <link>https://docbtimeline.com/tags/batteries/</link>
+      <link>http://localhost:1313/tags/batteries/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/batteries/</guid>
+      <guid>http://localhost:1313/tags/batteries/</guid>
       <description></description>
     </item>
     <item>
       <title>China</title>
-      <link>https://docbtimeline.com/tags/china/</link>
+      <link>http://localhost:1313/tags/china/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/china/</guid>
+      <guid>http://localhost:1313/tags/china/</guid>
       <description></description>
     </item>
     <item>
       <title>Critical-Minerals</title>
-      <link>https://docbtimeline.com/tags/critical-minerals/</link>
+      <link>http://localhost:1313/tags/critical-minerals/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/critical-minerals/</guid>
+      <guid>http://localhost:1313/tags/critical-minerals/</guid>
       <description></description>
     </item>
     <item>
       <title>Ev</title>
-      <link>https://docbtimeline.com/tags/ev/</link>
+      <link>http://localhost:1313/tags/ev/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/ev/</guid>
+      <guid>http://localhost:1313/tags/ev/</guid>
       <description></description>
     </item>
     <item>
       <title>Manufacturing</title>
-      <link>https://docbtimeline.com/tags/manufacturing/</link>
+      <link>http://localhost:1313/tags/manufacturing/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/manufacturing/</guid>
+      <guid>http://localhost:1313/tags/manufacturing/</guid>
       <description></description>
     </item>
     <item>
       <title>Mining</title>
-      <link>https://docbtimeline.com/tags/mining/</link>
+      <link>http://localhost:1313/tags/mining/</link>
       <pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/mining/</guid>
+      <guid>http://localhost:1313/tags/mining/</guid>
       <description></description>
     </item>
     <item>
       <title>Ai</title>
-      <link>https://docbtimeline.com/tags/ai/</link>
+      <link>http://localhost:1313/tags/ai/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/ai/</guid>
+      <guid>http://localhost:1313/tags/ai/</guid>
       <description></description>
     </item>
     <item>
       <title>Export-Controls</title>
-      <link>https://docbtimeline.com/tags/export-controls/</link>
+      <link>http://localhost:1313/tags/export-controls/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/export-controls/</guid>
+      <guid>http://localhost:1313/tags/export-controls/</guid>
       <description></description>
     </item>
     <item>
       <title>Semiconductors</title>
-      <link>https://docbtimeline.com/tags/semiconductors/</link>
+      <link>http://localhost:1313/tags/semiconductors/</link>
       <pubDate>Thu, 02 Apr 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/semiconductors/</guid>
+      <guid>http://localhost:1313/tags/semiconductors/</guid>
       <description></description>
     </item>
     <item>
       <title>Infrastructure</title>
-      <link>https://docbtimeline.com/tags/infrastructure/</link>
+      <link>http://localhost:1313/tags/infrastructure/</link>
       <pubDate>Mon, 30 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/infrastructure/</guid>
+      <guid>http://localhost:1313/tags/infrastructure/</guid>
       <description></description>
     </item>
     <item>
       <title>Iran</title>
-      <link>https://docbtimeline.com/tags/iran/</link>
+      <link>http://localhost:1313/tags/iran/</link>
       <pubDate>Sat, 28 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/iran/</guid>
+      <guid>http://localhost:1313/tags/iran/</guid>
       <description></description>
     </item>
     <item>
       <title>Defense</title>
-      <link>https://docbtimeline.com/tags/defense/</link>
+      <link>http://localhost:1313/tags/defense/</link>
       <pubDate>Thu, 26 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/defense/</guid>
+      <guid>http://localhost:1313/tags/defense/</guid>
       <description></description>
     </item>
     <item>
       <title>Europe</title>
-      <link>https://docbtimeline.com/tags/europe/</link>
+      <link>http://localhost:1313/tags/europe/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/europe/</guid>
+      <guid>http://localhost:1313/tags/europe/</guid>
       <description></description>
     </item>
     <item>
       <title>Sanctions</title>
-      <link>https://docbtimeline.com/tags/sanctions/</link>
+      <link>http://localhost:1313/tags/sanctions/</link>
       <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/tags/sanctions/</guid>
+      <guid>http://localhost:1313/tags/sanctions/</guid>
       <description></description>
     </item>
   </channel>
