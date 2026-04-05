@@ -1,86 +1,369 @@
-/* Doc B Timeline — custom overrides for PaperMod dark theme */
+/* Doc B — This Timeline: Light Editorial Theme */
+/* Source Serif 4 (body) + Inter (UI) */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400;1,8..60,600&family=Inter:wght@400;500;600&display=swap');
+
+/* ─── Colour palette ─────────────────────────────────────── */
 
 :root {
-  --gap: 24px;
-  --content-gap: 20px;
-  --main-width: 720px;
-  --header-height: 60px;
-  --footer-height: 60px;
+  --theme:      #faf8f5;   /* warm off-white — background */
+  --entry:      #ffffff;   /* card / entry background */
+  --primary:    #1c1c1c;   /* near-black text */
+  --secondary:  #6a6a6a;   /* muted secondary text */
+  --tertiary:   #f0ede8;   /* subtle fills */
+  --content:    #2a2a2a;   /* body copy */
+  --code-bg:    #f4f1ec;
+  --border:     #e5e1db;   /* dividers */
+
+  --gap:          24px;
+  --content-gap:  20px;
+  --main-width:   760px;
 }
 
-/* Tighter, more editorial header */
-.header {
-  border-bottom: 1px solid var(--border);
+/* Dark mode — system preference fallback only */
+.dark {
+  --theme:     #1a1918;
+  --entry:     #252321;
+  --primary:   #e8e6e1;
+  --secondary: #9a9590;
+  --tertiary:  #2e2c2a;
+  --content:   #ddd9d3;
+  --code-bg:   #2e2c2a;
+  --border:    #3a3836;
 }
 
-/* Article typography — slightly larger, more readable */
+/* ─── Base typography ────────────────────────────────────── */
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--theme);
+  color: var(--primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ─── Article body — serif, 18px, generous leading ──────── */
+
 .post-content {
-  font-size: 1.05rem;
-  line-height: 1.75;
+  font-family: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+  font-size: 18px;
+  line-height: 1.65;
+  color: var(--content);
 }
 
-/* Section headers have more weight */
+.post-content p {
+  margin-bottom: 1.4em;
+}
+
+/* ─── Headings ───────────────────────────────────────────── */
+
+.post-content h1,
+.post-content h2,
+.post-content h3,
+.post-content h4 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-weight: 600;
+  line-height: 1.28;
+  color: var(--primary);
+  letter-spacing: -0.015em;
+}
+
 .post-content h2 {
-  margin-top: 2.2em;
+  font-size: 1.38rem;
+  margin-top: 2.6em;
   margin-bottom: 0.6em;
-  font-size: 1.3rem;
-  letter-spacing: -0.01em;
 }
 
-/* Tags styling */
-.post-tags a {
-  font-size: 0.78rem;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
+.post-content h3 {
+  font-size: 1.15rem;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
 }
 
-/* Home info block — the intro blurb */
-.home-info-container {
-  padding: 2rem 0 2.5rem;
+/* Article title on single page */
+h1.post-title {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 2.1rem;
+  font-weight: 700;
+  line-height: 1.22;
+  letter-spacing: -0.025em;
+  color: var(--primary);
+}
+
+/* Dek / description */
+.post-description {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--secondary);
+  margin-top: 0.6em;
+}
+
+/* ─── Post header — title, dek, meta ────────────────────── */
+
+.post-header {
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
   border-bottom: 1px solid var(--border);
-  margin-bottom: 1.5rem;
 }
 
-/* Article list — tighter, more newspaper-like */
+/* ─── Post meta (date, reading time) ────────────────────── */
+
+.post-meta {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.8rem;
+  color: var(--secondary);
+  letter-spacing: 0.01em;
+}
+
+/* ─── Tags ───────────────────────────────────────────────── */
+
+.post-tags a {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  padding: 3px 9px;
+  border-radius: 3px;
+  background: var(--tertiary);
+  color: var(--secondary);
+  text-decoration: none;
+  border: 1px solid var(--border);
+}
+
+.post-tags a:hover {
+  background: var(--border);
+  color: var(--primary);
+}
+
+/* ─── Homepage info block ────────────────────────────────── */
+
+.home-info-container {
+  padding: 2.2rem 0 2.5rem;
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 1.8rem;
+}
+
+.home-info-container .entry-header h1 {
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.75rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.home-info-container .entry-content p {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  color: var(--secondary);
+  margin-top: 0.6rem;
+}
+
+/* ─── Article list cards ─────────────────────────────────── */
+
 .post-entry {
-  padding: 1.2rem 0;
+  padding: 1.4rem 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.post-entry:last-child {
+  border-bottom: none;
 }
 
 .post-entry .entry-header h2 {
-  font-size: 1.15rem;
-  line-height: 1.4;
+  font-family: 'Source Serif 4', Georgia, serif;
+  font-size: 1.18rem;
+  font-weight: 600;
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+  color: var(--primary);
 }
 
-/* Description/subtitle in article card */
-.entry-content p {
-  font-size: 0.92rem;
-  opacity: 0.85;
+.post-entry .entry-header h2 a {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+.post-entry .entry-header h2 a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-entry .entry-content p {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.88rem;
+  line-height: 1.55;
+  color: var(--secondary);
+  margin-top: 0.35rem;
+}
+
+/* ─── Inline links ───────────────────────────────────────── */
+
+.post-content a {
+  color: #3d6b9e;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.post-content a:hover {
+  color: #2a4f7a;
+}
+
+/* ─── Strong / bold ──────────────────────────────────────── */
+
+.post-content strong {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+/* ─── Blockquote — Market Implication callouts ───────────── */
+
+.post-content blockquote {
+  border-left: 3px solid var(--border);
+  padding: 0.5em 0 0.5em 1.4em;
+  margin: 1.8em 0;
+  font-style: normal;
+}
+
+.post-content blockquote p {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: var(--secondary);
+  margin-bottom: 0.5em;
+}
+
+/* ─── Horizontal rules ───────────────────────────────────── */
+
+.post-content hr {
+  border: none;
+  border-top: 1px solid var(--border);
+  margin: 2.5em 0;
+}
+
+/* ─── Sources list — muted ───────────────────────────────── */
+
+.post-content ul {
+  padding-left: 1.3em;
+}
+
+.post-content ul li {
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+}
+
+/* ─── Site header ────────────────────────────────────────── */
+
+.header {
+  border-bottom: 1px solid var(--border);
+  background: var(--theme);
+}
+
+.logo a {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  color: var(--primary);
+}
+
+#menu a {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--secondary);
+}
+
+#menu a:hover {
+  color: var(--primary);
+}
+
+/* ─── Footer ─────────────────────────────────────────────── */
+
+.footer {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.78rem;
+  color: var(--secondary);
+  border-top: 1px solid var(--border);
+  padding-top: 1.5rem;
+}
+
+/* ─── Nav post links (prev/next) ─────────────────────────── */
+
+.paginav {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.88rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+}
+
+/* ─── Subscribe block ────────────────────────────────────── */
+
+.subscribe-block {
+  margin: 3rem auto 1.5rem;
+  padding: 1.8rem 2rem;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  max-width: 460px;
+  text-align: center;
+  background: var(--entry);
+}
+
+.subscribe-prompt {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.88rem;
+  color: var(--secondary);
+  margin: 0 0 1rem;
   line-height: 1.5;
 }
 
-/* Reading time and date meta */
-.post-meta {
-  font-size: 0.8rem;
+.subscribe-row {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-row input[type="email"] {
+  flex: 1;
+  min-width: 190px;
+  padding: 0.6rem 1rem;
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  background: var(--theme);
+  color: var(--primary);
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: 0.88rem;
+}
+
+.subscribe-row input[type="email"]::placeholder {
+  color: var(--secondary);
   opacity: 0.65;
 }
 
-/* Sources section at bottom — smaller, muted */
-.post-content h2:last-of-type + ul,
-.post-content h2:last-of-type + p {
+.subscribe-row button {
+  padding: 0.6rem 1.3rem;
+  background: #1c1c1c;
+  color: #faf8f5;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Inter', system-ui, sans-serif;
   font-size: 0.85rem;
-  opacity: 0.7;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+  transition: background 0.15s;
 }
 
-/* Market implication box — subtle callout */
-.post-content blockquote {
-  border-left: 3px solid var(--primary);
-  padding-left: 1.2em;
-  font-style: normal;
-  opacity: 0.9;
+.subscribe-row button:hover {
+  background: #2d2d2d;
 }
 
-/* Footer */
-.footer {
-  font-size: 0.8rem;
-  opacity: 0.6;
+.dark .subscribe-row button {
+  background: var(--primary);
+  color: var(--theme);
 }

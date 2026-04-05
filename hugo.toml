@@ -8,7 +8,7 @@ paginate = 10
 [params]
   description = "Constraint intelligence for a world where the bottleneck keeps moving."
   author = "Doc B"
-  defaultTheme = "dark"
+  defaultTheme = "light"
   disableThemeToggle = false
   ShowReadingTime = true
   ShowShareButtons = false
@@ -23,7 +23,7 @@ paginate = 10
 
   [params.homeInfoParams]
     Title = "Doc B — This Timeline"
-    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Published ~3× per week. **Where the pressure starts is never where it lands.**"
+    Content = "Constraint intelligence for a world where the bottleneck keeps moving. Published ~3× per week. *Where the pressure starts is never where it lands.*"
 
   [[params.socialIcons]]
     name = "x"
