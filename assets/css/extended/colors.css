@@ -148,3 +148,18 @@ input:focus:not(:focus-visible) {
 .social-icons a:hover svg {
   fill: var(--accent-blue);
 }
+
+/* ─── Blue accent line — top of every page ───────────────── */
+.header {
+ position: relative;
+}
+.header::before {
+ content: '';
+ display: block;
+ height: 2px;
+ background: var(--accent-blue);
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+}
