@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Europe on DocB — Timeline</title>
-    <link>https://docbtimeline.com/tags/europe/</link>
-    <description>Recent content in Europe on DocB — Timeline</description>
+    <title>Gas on DocB — Timeline</title>
+    <link>https://docbtimeline.com/tags/gas/</link>
+    <description>Recent content in Gas on DocB — Timeline</description>
     <image>
       <title>DocB — Timeline</title>
       <url>https://docbtimeline.com/images/docb-og.jpg</url>
@@ -12,20 +12,13 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://docbtimeline.com/tags/europe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://docbtimeline.com/tags/gas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>33.5% Full: Inside Europe&#39;s Storage Gamble</title>
       <link>https://docbtimeline.com/posts/europes-storage-gamble/</link>
       <pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate>
       <guid>https://docbtimeline.com/posts/europes-storage-gamble/</guid>
       <description>Europe&amp;#39;s gas storage sits at 33.5% during refill season while the grid burns the gas it needs to store — and the cargoes aren&amp;#39;t arriving.</description>
-    </item>
-    <item>
-      <title>Hungary&#39;s €430-Per-Tonne Election Strategy</title>
-      <link>https://docbtimeline.com/posts/hungary-fertilizer-election/</link>
-      <pubDate>Sun, 22 Mar 2026 00:00:00 +0000</pubDate>
-      <guid>https://docbtimeline.com/posts/hungary-fertilizer-election/</guid>
-      <description>Hormuz → EU gas storage at 28.9% → fertilizer costs surge → Hungary&amp;#39;s electoral cycle turns supply shock into sanctions defection vector</description>
     </item>
   </channel>
 </rss>
