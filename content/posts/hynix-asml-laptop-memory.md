@@ -1,7 +1,7 @@
 ---
 title: "How a $7.9 Billion Order Made Your Next Laptop Worse"
 description: "SK Hynix's record ASML deal is diverting DDR5 factories to AI memory — and your next machine ships with half the RAM at the same price"
-date: 2026-04-14
+date: 2026-04-13
 draft: false
 tags: ["semiconductors", "ai", "manufacturing", "china"]
 author: "DocB"
