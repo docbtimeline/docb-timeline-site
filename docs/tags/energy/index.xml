@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://docbtimeline.com/tags/energy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>811 Projects, 220 Gigawatts, One Bottleneck</title>
+      <link>https://docbtimeline.com/posts/pjm-queue-220-gigawatts-bottleneck/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://docbtimeline.com/posts/pjm-queue-220-gigawatts-bottleneck/</guid>
+      <description>PJM&amp;#39;s reopened interconnection queue surfaces the constraint that&amp;#39;s been hiding in plain sight: the wire, not the panel, not the battery, not the chip.</description>
+    </item>
     <item>
       <title>Hyperscalers Reserved $450B in Chips Nobody Can Plug In</title>
       <link>https://docbtimeline.com/posts/hyperscalers-450b-chips-nobody-can-plug-in/</link>

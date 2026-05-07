@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 May 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://docbtimeline.com/tags/batteries/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>811 Projects, 220 Gigawatts, One Bottleneck</title>
+      <link>https://docbtimeline.com/posts/pjm-queue-220-gigawatts-bottleneck/</link>
+      <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://docbtimeline.com/posts/pjm-queue-220-gigawatts-bottleneck/</guid>
+      <description>PJM&amp;#39;s reopened interconnection queue surfaces the constraint that&amp;#39;s been hiding in plain sight: the wire, not the panel, not the battery, not the chip.</description>
+    </item>
     <item>
       <title>Every Machine in China&#39;s Battery Line Is Chinese</title>
       <link>https://docbtimeline.com/posts/every-machine-chinas-battery-line/</link>
