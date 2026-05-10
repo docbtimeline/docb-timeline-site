@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ukraine on DocB — Timeline</title>
+    <link>https://docbtimeline.com/tags/ukraine/</link>
+    <description>Recent content in Ukraine on DocB — Timeline</description>
+    <image>
+      <title>DocB — Timeline</title>
+      <url>https://docbtimeline.com/images/docb-og.jpg</url>
+      <link>https://docbtimeline.com/images/docb-og.jpg</link>
+    </image>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://docbtimeline.com/tags/ukraine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rassvet: Russia&#39;s Answer to SpaceX&#39;s Kill Switch</title>
+      <link>https://docbtimeline.com/posts/rassvet-russia-spacex-kill-switch/</link>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://docbtimeline.com/posts/rassvet-russia-spacex-kill-switch/</guid>
+      <description>On May 6, Kyivstar became Ukraine&amp;#39;s authorized Starlink reseller for enterprises, schools, and hospitals. The whitelist that disabled Russian terminals and the dealership that channels Ukrainian ones are one piece of infrastructure seen from two ends.</description>
+    </item>
+  </channel>
+</rss>
